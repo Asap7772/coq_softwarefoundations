@@ -1,3 +1,5 @@
+(*This contains both natlists and bags implementation*)
+
 Inductive natlist : Type :=
   | nil : natlist
   | cons : nat -> natlist -> natlist.
