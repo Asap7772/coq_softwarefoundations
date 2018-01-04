@@ -1,7 +1,0 @@
-Add LoadPath "/home/anikait/Desktop/coqExamples/unit1".
-Add LoadPath "/home/anikait/Desktop/coqExamples/unit2".
-Add LoadPath "/home/anikait/Desktop/coqExamples/unit3".
-
-Print LoadPath. 
-
-Require Export Basics.
