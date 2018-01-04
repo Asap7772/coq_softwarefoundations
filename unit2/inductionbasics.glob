@@ -1,0 +1,45 @@
+DIGEST 8e254cca37899a9f37fc1b9d4db9b2b9
+Finductionbasics
+prf 8:15 <> mult_0_r
+R28:30 Coq.Init.Datatypes <> nat ind
+R40:42 Coq.Init.Logic <> :type_scope:x_'='_x not
+R36:38 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R35:35 inductionbasics <> n var
+prf 159:167 <> plus_n_Sm
+R184:186 Coq.Init.Datatypes <> nat ind
+R200:202 Coq.Init.Logic <> :type_scope:x_'='_x not
+R191:191 Coq.Init.Datatypes <> S constr
+R195:197 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R194:194 inductionbasics <> n var
+R198:198 inductionbasics <> m var
+R204:207 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R211:211 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R203:203 inductionbasics <> n var
+R208:208 Coq.Init.Datatypes <> S constr
+R210:210 inductionbasics <> m var
+prf 331:339 <> plus_comm
+R356:358 Coq.Init.Datatypes <> nat ind
+R368:370 Coq.Init.Logic <> :type_scope:x_'='_x not
+R364:366 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R363:363 inductionbasics <> n var
+R367:367 inductionbasics <> m var
+R372:374 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R371:371 inductionbasics <> m var
+R375:375 inductionbasics <> n var
+R553:561 inductionbasics <> plus_n_Sm thm
+R553:561 inductionbasics <> plus_n_Sm thm
+prf 592:601 <> plus_assoc
+R620:622 Coq.Init.Datatypes <> nat ind
+R638:640 Coq.Init.Logic <> :type_scope:x_'='_x not
+R628:631 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R637:637 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R627:627 inductionbasics <> n var
+R633:635 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R632:632 inductionbasics <> m var
+R636:636 inductionbasics <> p var
+R641:641 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R647:650 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R643:645 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R642:642 inductionbasics <> n var
+R646:646 inductionbasics <> m var
+R651:651 inductionbasics <> p var

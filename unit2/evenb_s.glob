@@ -1,0 +1,40 @@
+DIGEST 74c45936a2c4269a2ecc58d5b9c7ac9f
+Fevenb_s
+def 10:14 <> evenb
+R19:21 Coq.Init.Datatypes <> nat ind
+R26:29 Coq.Init.Datatypes <> bool ind
+R42:42 evenb_s <> n var
+R53:53 Coq.Init.Datatypes <> O constr
+R58:61 Coq.Init.Datatypes <> true constr
+R67:67 Coq.Init.Datatypes <> S constr
+R69:69 Coq.Init.Datatypes <> O constr
+R74:78 Coq.Init.Datatypes <> false constr
+R84:84 Coq.Init.Datatypes <> S constr
+R87:87 Coq.Init.Datatypes <> S constr
+R96:100 evenb_s <> evenb def
+def 124:127 <> negb
+R132:135 Coq.Init.Datatypes <> bool ind
+R140:143 Coq.Init.Datatypes <> bool ind
+R156:156 evenb_s <> b var
+R167:170 Coq.Init.Datatypes <> true constr
+R175:179 Coq.Init.Datatypes <> false constr
+R185:189 Coq.Init.Datatypes <> false constr
+R194:197 Coq.Init.Datatypes <> true constr
+prf 215:229 <> negb_involutive
+R244:247 Coq.Init.Datatypes <> bool ind
+R265:267 Coq.Init.Logic <> :type_scope:x_'='_x not
+R252:255 evenb_s <> negb def
+R258:261 evenb_s <> negb def
+R263:263 evenb_s <> b var
+R268:268 evenb_s <> b var
+prf 350:356 <> evenb_S
+R371:373 Coq.Init.Datatypes <> nat ind
+R389:391 Coq.Init.Logic <> :type_scope:x_'='_x not
+R378:382 evenb_s <> evenb def
+R385:385 Coq.Init.Datatypes <> S constr
+R387:387 evenb_s <> n var
+R392:395 evenb_s <> negb def
+R398:402 evenb_s <> evenb def
+R404:404 evenb_s <> n var
+R513:527 evenb_s <> negb_involutive thm
+R513:527 evenb_s <> negb_involutive thm
