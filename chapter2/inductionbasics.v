@@ -27,14 +27,6 @@ induction m as [| m' IHm'].
 - simpl. rewrite <- IHm'. rewrite -> plus_n_Sm. reflexivity.
 Qed. 
 
-Theorem plus_assoc : forall n m p : nat,
-  n + (m + p) = (n + m) + p.
-Proof.
-intros n m p.
-induction n as [| n' IHn'].
-- simpl. reflexivity.
-- simpl. rewrite -> IHn'. reflexivity.
-Qed.
 
 
 

@@ -1,12 +1,11 @@
-Add LoadPath "/home/anikait/Desktop/coqExamples/unit1".
-Add LoadPath "/home/anikait/Desktop/coqExamples/unit2".
-Add LoadPath "/home/anikait/Desktop/coqExamples/unit3".
+Add LoadPath "/Users/anikaitsingh/Desktop/coqSoftwareFoundations/chapter3/chapter1".
+Add LoadPath "/Users/anikaitsingh/Desktop/coqSoftwareFoundations/chapter3/chapter2".
+Add LoadPath "/Users/anikaitsingh/Desktop/coqSoftwareFoundations/chapter3/chapter3".
 
 Print LoadPath. 
 
 Require Export natList.
 Require Export Basics.
-Require Export inductionbasics.
 
 (*List Excercise 1*)
 
