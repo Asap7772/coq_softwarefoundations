@@ -1,0 +1,395 @@
+DIGEST 802cad74210fad79e75c7b0838a74a3c
+FlistProof
+R289:295 natList <> <> lib
+R313:318 Coq.Program.Basics <> <> lib
+prf 352:360 <> app_nil_r
+R375:381 natList <> natlist ind
+R393:395 Coq.Init.Logic <> :type_scope:x_'='_x not
+R387:390 natList <> ::x_'++'_x not
+R386:386 listProof <> l var
+R391:392 natList <> ::'['_']' not
+R396:396 listProof <> l var
+prf 496:508 <> rev_app_distr
+R526:532 natList <> natlist ind
+R551:553 Coq.Init.Logic <> :type_scope:x_'='_x not
+R537:539 natList <> rev def
+R544:547 natList <> ::x_'++'_x not
+R542:543 listProof <> l1 var
+R548:549 listProof <> l2 var
+R560:563 natList <> ::x_'++'_x not
+R554:556 natList <> rev def
+R558:559 listProof <> l2 var
+R564:566 natList <> rev def
+R568:569 listProof <> l1 var
+R658:666 listProof <> app_nil_r thm
+R658:666 listProof <> app_nil_r thm
+R724:732 listProof <> app_nil_r thm
+R724:732 listProof <> app_nil_r thm
+R791:799 natList <> app_assoc thm
+R791:799 natList <> app_assoc thm
+prf 829:842 <> rev_involutive
+R857:863 natList <> natlist ind
+R879:881 Coq.Init.Logic <> :type_scope:x_'='_x not
+R868:870 natList <> rev def
+R873:875 natList <> rev def
+R877:877 listProof <> l var
+R882:882 listProof <> l var
+R957:969 listProof <> rev_app_distr thm
+R957:969 listProof <> rev_app_distr thm
+prf 1023:1032 <> app_assoc4
+R1057:1063 natList <> natlist ind
+R1092:1094 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1070:1074 natList <> ::x_'++'_x not
+R1091:1091 natList <> ::x_'++'_x not
+R1068:1069 listProof <> l1 var
+R1077:1081 natList <> ::x_'++'_x not
+R1090:1090 natList <> ::x_'++'_x not
+R1075:1076 listProof <> l2 var
+R1084:1087 natList <> ::x_'++'_x not
+R1082:1083 listProof <> l3 var
+R1088:1089 listProof <> l4 var
+R1095:1095 natList <> ::x_'++'_x not
+R1112:1116 natList <> ::x_'++'_x not
+R1096:1096 natList <> ::x_'++'_x not
+R1105:1109 natList <> ::x_'++'_x not
+R1099:1102 natList <> ::x_'++'_x not
+R1097:1098 listProof <> l1 var
+R1103:1104 listProof <> l2 var
+R1110:1111 listProof <> l3 var
+R1117:1118 listProof <> l4 var
+R1159:1167 natList <> app_assoc thm
+R1159:1167 natList <> app_assoc thm
+R1181:1189 natList <> app_assoc thm
+R1181:1189 natList <> app_assoc thm
+prf 1217:1228 <> nonzeros_app
+R1247:1253 natList <> natlist ind
+R1277:1279 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1258:1265 natList <> nonzeros def
+R1270:1273 natList <> ::x_'++'_x not
+R1268:1269 listProof <> l1 var
+R1274:1275 listProof <> l2 var
+R1280:1280 natList <> ::x_'++'_x not
+R1292:1297 natList <> ::x_'++'_x not
+R1309:1309 natList <> ::x_'++'_x not
+R1281:1288 natList <> nonzeros def
+R1290:1291 listProof <> l1 var
+R1298:1305 natList <> nonzeros def
+R1307:1308 listProof <> l2 var
+def 1476:1486 <> beq_natlist
+R1497:1503 natList <> natlist ind
+R1508:1511 Coq.Init.Datatypes <> bool ind
+R1522:1523 listProof <> l1 var
+R1531:1533 natList <> nil constr
+R1547:1548 listProof <> l2 var
+R1559:1561 natList <> nil constr
+R1566:1569 Coq.Init.Datatypes <> true constr
+R1579:1583 Coq.Init.Datatypes <> false constr
+R1593:1595 natList <> ::x_'::'_x not
+R1611:1612 listProof <> l2 var
+R1624:1626 natList <> nil constr
+R1631:1635 Coq.Init.Datatypes <> false constr
+R1642:1645 natList <> ::x_'::'_x not
+R1664:1670 natList <> beq_nat def
+R1690:1693 Coq.Init.Datatypes <> true constr
+R1698:1708 listProof <> beq_natlist def
+R1727:1731 Coq.Init.Datatypes <> false constr
+R1736:1740 Coq.Init.Datatypes <> false constr
+def 1772:1788 <> test_beq_natlist1
+R1814:1816 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1795:1805 listProof <> beq_natlist def
+R1811:1813 natList <> nil constr
+R1807:1809 natList <> nil constr
+R1817:1820 Coq.Init.Datatypes <> true constr
+def 1859:1875 <> test_beq_natlist2
+R1908:1910 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1881:1891 listProof <> beq_natlist def
+R1901:1901 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R1903:1903 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R1905:1905 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R1907:1907 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R1893:1893 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R1895:1895 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R1897:1897 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R1899:1899 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R1911:1914 Coq.Init.Datatypes <> true constr
+def 1951:1967 <> test_beq_natlist3
+R2000:2002 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1973:1983 listProof <> beq_natlist def
+R1993:1993 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R1995:1995 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R1997:1997 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R1999:1999 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R1985:1985 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R1987:1987 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R1989:1989 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R1991:1991 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R2003:2007 Coq.Init.Datatypes <> false constr
+prf 2045:2052 <> equality
+R2076:2078 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2065:2071 natList <> beq_nat def
+R2075:2075 listProof <> n var
+R2073:2073 listProof <> n var
+R2079:2082 Coq.Init.Datatypes <> true constr
+prf 2182:2197 <> beq_natlist_refl
+R2210:2216 natList <> natlist ind
+R2225:2227 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2221:2224 Coq.Init.Datatypes <> true constr
+R2228:2238 listProof <> beq_natlist def
+R2242:2242 listProof <> l var
+R2240:2240 listProof <> l var
+R2335:2342 listProof <> equality thm
+R2335:2342 listProof <> equality thm
+def 2373:2375 <> leb
+R2384:2386 Coq.Init.Datatypes <> nat ind
+R2391:2394 Coq.Init.Datatypes <> bool ind
+R2407:2407 listProof <> n var
+R2418:2418 Coq.Init.Datatypes <> O constr
+R2423:2426 Coq.Init.Datatypes <> true constr
+R2432:2432 Coq.Init.Datatypes <> S constr
+R2452:2452 listProof <> m var
+R2467:2467 Coq.Init.Datatypes <> O constr
+R2472:2476 Coq.Init.Datatypes <> false constr
+R2486:2486 Coq.Init.Datatypes <> S constr
+R2494:2496 listProof <> leb def
+prf 2550:2569 <> count_member_nonzero
+R2584:2586 natList <> bag def
+R2616:2618 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2592:2594 listProof <> leb def
+R2599:2603 natList <> count def
+R2609:2612 natList <> ::x_'::'_x not
+R2613:2613 listProof <> s var
+R2619:2622 Coq.Init.Datatypes <> true constr
+prf 2677:2684 <> ble_n_Sn
+R2711:2713 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2700:2702 listProof <> leb def
+R2707:2707 Coq.Init.Datatypes <> S constr
+R2709:2709 listProof <> n var
+R2704:2704 listProof <> n var
+R2714:2717 Coq.Init.Datatypes <> true constr
+prf 2870:2891 <> remove_decreases_count
+R2906:2908 natList <> bag def
+R2956:2958 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2914:2916 listProof <> leb def
+R2946:2950 natList <> count def
+R2954:2954 listProof <> s var
+R2919:2923 natList <> count def
+R2928:2937 natList <> remove_one def
+R2941:2941 listProof <> s var
+R2959:2962 Coq.Init.Datatypes <> true constr
+R3058:3065 listProof <> ble_n_Sn thm
+R3058:3065 listProof <> ble_n_Sn thm
+prf 3133:3145 <> rev_injective
+R3164:3170 natList <> natlist ind
+R3195:3197 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3193:3194 listProof <> l1 var
+R3198:3199 listProof <> l2 var
+R3180:3182 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3174:3176 natList <> rev def
+R3178:3179 listProof <> l1 var
+R3183:3185 natList <> rev def
+R3187:3188 listProof <> l2 var
+R3244:3257 listProof <> rev_involutive thm
+R3244:3257 listProof <> rev_involutive thm
+R3285:3298 listProof <> rev_involutive thm
+R3285:3298 listProof <> rev_involutive thm
+ind 3345:3353 <> natoption
+constr 3369:3372 <> Some
+constr 3397:3400 <> None
+R3383:3391 listProof <> natoption ind
+R3376:3378 Coq.Init.Datatypes <> nat ind
+R3404:3412 listProof <> natoption ind
+def 3425:3433 <> nth_error
+R3438:3444 natList <> natlist ind
+R3450:3452 Coq.Init.Datatypes <> nat ind
+R3457:3465 listProof <> natoption ind
+R3478:3478 listProof <> l var
+R3489:3491 natList <> nil constr
+R3496:3499 listProof <> None constr
+R3506:3509 natList <> ::x_'::'_x not
+R3522:3528 natList <> beq_nat def
+R3532:3532 Coq.Init.Datatypes <> O constr
+R3530:3530 listProof <> n var
+R3556:3559 Coq.Init.Datatypes <> true constr
+R3564:3567 listProof <> Some constr
+R3588:3592 Coq.Init.Datatypes <> false constr
+R3597:3605 listProof <> nth_error def
+R3611:3614 Coq.Init.Peano <> pred def
+R3616:3616 listProof <> n var
+def 3653:3667 <> test_nth_error1
+R3692:3694 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3671:3679 listProof <> nth_error def
+R3681:3681 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R3683:3683 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R3685:3685 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R3687:3687 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R3689:3689 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R3695:3698 listProof <> Some constr
+def 3736:3750 <> test_nth_error2
+R3775:3777 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3754:3762 listProof <> nth_error def
+R3764:3764 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R3766:3766 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R3768:3768 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R3770:3770 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R3772:3772 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R3778:3781 listProof <> Some constr
+def 3819:3833 <> test_nth_error3
+R3858:3860 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3837:3845 listProof <> nth_error def
+R3847:3847 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R3849:3849 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R3851:3851 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R3853:3853 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R3855:3855 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R3861:3864 listProof <> None constr
+def 3902:3911 <> nth_error'
+R3916:3922 natList <> natlist ind
+R3928:3930 Coq.Init.Datatypes <> nat ind
+R3935:3943 listProof <> natoption ind
+R3956:3956 listProof <> l var
+R3967:3969 natList <> nil constr
+R3974:3977 listProof <> None constr
+R3984:3987 natList <> ::x_'::'_x not
+R3997:4003 natList <> beq_nat def
+R4007:4007 Coq.Init.Datatypes <> O constr
+R4005:4005 listProof <> n var
+R4041:4050 listProof <> nth_error' def
+R4056:4059 Coq.Init.Peano <> pred def
+R4061:4061 listProof <> n var
+R4014:4017 listProof <> Some constr
+def 4084:4094 <> option_elim
+R4101:4103 Coq.Init.Datatypes <> nat ind
+R4111:4119 listProof <> natoption ind
+R4124:4126 Coq.Init.Datatypes <> nat ind
+R4139:4139 listProof <> o var
+R4150:4153 listProof <> Some constr
+R4168:4171 listProof <> None constr
+R4176:4176 listProof <> d var
+def 4198:4205 <> hd_error
+R4212:4218 natList <> natlist ind
+R4223:4231 listProof <> natoption ind
+R4242:4242 listProof <> l var
+R4251:4253 natList <> nil constr
+R4258:4261 listProof <> None constr
+R4266:4269 natList <> ::x_'::'_x not
+R4275:4278 listProof <> Some constr
+def 4296:4309 <> test_hd_error1
+R4324:4326 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4313:4320 listProof <> hd_error def
+R4322:4323 natList <> ::'['_']' not
+R4327:4330 listProof <> None constr
+def 4366:4379 <> test_hd_error2
+R4395:4397 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4383:4390 listProof <> hd_error def
+R4392:4392 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R4394:4394 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R4398:4401 listProof <> Some constr
+def 4439:4452 <> test_hd_error3
+R4470:4472 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4456:4463 listProof <> hd_error def
+R4465:4465 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R4467:4467 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R4469:4469 natList <> ::'['_x_';'_'..'_';'_x_']' not
+R4473:4476 listProof <> Some constr
+prf 4515:4528 <> option_elim_hd
+R4542:4548 natList <> natlist ind
+R4560:4562 Coq.Init.Datatypes <> nat ind
+R4580:4582 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4568:4569 natList <> hd def
+R4579:4579 listProof <> l var
+R4571:4577 listProof <> default var
+R4583:4593 listProof <> option_elim def
+R4604:4611 listProof <> hd_error def
+R4613:4613 listProof <> l var
+R4595:4601 listProof <> default var
+ind 4740:4741 <> id
+constr 4757:4758 <> Id
+R4769:4770 listProof <> id ind
+R4762:4764 Coq.Init.Datatypes <> nat ind
+def 4786:4791 <> beq_id
+R4802:4803 listProof <> id ind
+R4821:4822 listProof <> x2 var
+R4817:4818 listProof <> x1 var
+R4833:4834 listProof <> Id constr
+R4840:4841 listProof <> Id constr
+R4849:4855 natList <> beq_nat def
+prf 4879:4889 <> beq_id_refl
+R4907:4909 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4903:4906 Coq.Init.Datatypes <> true constr
+R4910:4915 listProof <> beq_id def
+R4919:4919 listProof <> x var
+R4917:4917 listProof <> x var
+R4969:4976 listProof <> equality thm
+R4969:4976 listProof <> equality thm
+ind 5009:5019 <> partial_map
+constr 5035:5039 <> empty
+constr 5059:5064 <> record
+R5043:5053 listProof <> partial_map ind
+R5096:5106 listProof <> partial_map ind
+R5081:5091 listProof <> partial_map ind
+R5074:5076 Coq.Init.Datatypes <> nat ind
+R5068:5069 listProof <> id ind
+def 5122:5127 <> update
+R5134:5144 listProof <> partial_map ind
+R5170:5171 listProof <> id ind
+R5183:5185 Coq.Init.Datatypes <> nat ind
+R5208:5218 listProof <> partial_map ind
+R5225:5230 listProof <> record constr
+R5240:5240 listProof <> d var
+R5234:5238 listProof <> value var
+R5232:5232 listProof <> x var
+def 5253:5256 <> find
+R5263:5264 listProof <> id ind
+R5272:5282 listProof <> partial_map ind
+R5287:5295 listProof <> natoption ind
+R5308:5308 listProof <> d var
+R5319:5323 listProof <> empty constr
+R5328:5331 listProof <> None constr
+R5337:5342 listProof <> record constr
+R5357:5362 listProof <> beq_id def
+R5364:5364 listProof <> x var
+R5427:5430 listProof <> find def
+R5432:5432 listProof <> x var
+R5394:5397 listProof <> Some constr
+prf 5453:5461 <> update_eq
+R5479:5489 listProof <> partial_map ind
+R5497:5498 listProof <> id ind
+R5505:5507 Coq.Init.Datatypes <> nat ind
+R5536:5538 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5515:5518 listProof <> find def
+R5523:5528 listProof <> update def
+R5534:5534 listProof <> v var
+R5532:5532 listProof <> x var
+R5530:5530 listProof <> d var
+R5520:5520 listProof <> x var
+R5539:5542 listProof <> Some constr
+R5544:5544 listProof <> v var
+R5643:5650 listProof <> equality thm
+R5643:5650 listProof <> equality thm
+prf 5681:5690 <> update_neq
+R5708:5718 listProof <> partial_map ind
+R5728:5729 listProof <> id ind
+R5736:5738 Coq.Init.Datatypes <> nat ind
+R5789:5791 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5768:5771 listProof <> find def
+R5776:5781 listProof <> update def
+R5787:5787 listProof <> o var
+R5785:5785 listProof <> y var
+R5783:5783 listProof <> d var
+R5773:5773 listProof <> x var
+R5792:5795 listProof <> find def
+R5799:5799 listProof <> d var
+R5797:5797 listProof <> x var
+R5756:5758 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5746:5751 listProof <> beq_id def
+R5755:5755 listProof <> y var
+R5753:5753 listProof <> x var
+R5759:5763 Coq.Init.Datatypes <> false constr
+ind 5885:5887 <> baz
+constr 5903:5906 <> Baz1
+constr 5925:5928 <> Baz2
+R5917:5919 listProof <> baz ind
+R5910:5912 listProof <> baz ind
+R5947:5949 listProof <> baz ind
+R5939:5942 Coq.Init.Datatypes <> bool ind
+R5932:5934 listProof <> baz ind
