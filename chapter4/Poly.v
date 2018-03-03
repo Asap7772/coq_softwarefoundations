@@ -1102,7 +1102,7 @@ Qed.
 *)
 (** [] *)
 
-(** **** Exercise: 4 stars, advanced (church_numerals)  *)
+(** **** Exercise4 stars, advanced (church_numerals)  *)
 (** This exercise explores an alternative way of defining natural
     numbers, using the so-called _Church numerals_, named after
     mathematician Alonzo Church.  We can represent a natural number
